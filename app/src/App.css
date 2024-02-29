@@ -1,0 +1,49 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header ul{
+  display: flex;
+  gap: 20px;
+}
+
+main{
+  padding: 40px;
+  margin-bottom: auto;
+}
+
+main h1{
+  text-align: center;
+}
+
+/* main ul{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  margin-top: 30px; 
+} */
+
+/* main ul li{
+  padding: 20px;
+  border: 2px solid black;
+} */
+
+footer {
+  width: 100%;
+  padding: 30px 0px;
+  background-color: burlywood;
+}
+
+.active{
+  color: red !important;
+}
